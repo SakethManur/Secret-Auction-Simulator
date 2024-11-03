@@ -20,7 +20,7 @@ should_continue=input("Are there any bids? if yes then type 'yes' or type 'no'\n
 continue_bids=True
 while continue_bids:
     user_name = input("Please enter your name:")#asks the bidder's name
-    user_bid = int(input("Please enter the bid:$"))#asks the biddes's bid 
+    user_bid = int(input("Please enter the bid:$"))#asks the bidder's bid 
     bids[user_name] = user_bid
     should_continue = input("Are there any other bids? if yes then type 'yes' or type 'no'\n")
     if should_continue == "no" :
